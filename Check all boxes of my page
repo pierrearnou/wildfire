@@ -1,0 +1,7 @@
+(function() {
+    var checkAll= document.getElementsByTagName("input");
+    for (var i =0; i < checkAll.length; i++){
+        if (checkAll[i].type == 'checkbox')
+            checkAll[i].checked = true;
+    }
+})()
